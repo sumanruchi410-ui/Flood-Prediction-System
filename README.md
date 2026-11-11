@@ -1,4 +1,4 @@
-Copyright (c) 2026 Team Solvix. All rights reserved.
+Copyright (c) 2026 Team Solvix.
 
 Authors: Ruchi Suman, Shruti Singh, Hunny Pandey, Pranjal K. Sonawane
 
@@ -92,6 +92,7 @@ The location search flow is independent:
 | Frontend | HTML, CSS, vanilla JavaScript |
 | Mapping | Leaflet 1.9.4, OpenStreetMap, Nominatim |
 | Deployment | Vercel services, GitHub Pages (static frontend) |
+| License | Apache License 2.0 |
 
 ## Project Structure
 
@@ -115,6 +116,7 @@ Flood-Prediction-System/
 ├── index.html
 ├── script.js
 ├── style.css
+├── LICENSE
 ├── vercel.json
 └── README.md
 ```
@@ -127,6 +129,7 @@ Flood-Prediction-System/
 - `frontend/` is the frontend root used by the Vercel deployment.
 - The files at the repository root are a static copy of the frontend for hosting environments such as GitHub Pages. They are currently identical to the files in `frontend/`, so changes should be made in both places.
 - `vercel.json` defines the frontend and backend services and the request rewrites.
+- `LICENSE` contains the full Apache License 2.0 text.
 
 ## Dataset
 
@@ -356,10 +359,24 @@ The files at the repository root can be served as a static site by GitHub Pages.
 
 ## License
 
-This project is provided for academic and demonstration purposes. Redistribution or commercial use requires permission from Team Solvix.
+Copyright (c) 2026 Team Solvix.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    https://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+The full license text is available in the [LICENSE](LICENSE) file.
 
 ---
 
-Copyright (c) 2026 Team Solvix. All rights reserved.
+Copyright (c) 2026 Team Solvix.
 
 Authors: Ruchi Suman, Shruti Singh, Hunny Pandey, Pranjal K. Sonawane
